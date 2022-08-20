@@ -19,6 +19,8 @@ public class DenemeController {
         return new RestTemplate();
     }
 
+    // 8081den sunuyoruz, 8080den tüketiyoruz
+
     @GetMapping("/restcagir")
     List<Calisan> all() {
 
